@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background-color: none;
+  border: 1px solid none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:first-child {
+  font-size: 21px;
+  font-weight: bolder;
+  padding-right: 10px;
+}
+
+nav ul li:nth-child(2),
+nav ul li:nth-child(3),
+nav ul li:nth-child(4),
+nav ul li:nth-child(5),
+nav ul li:nth-child(6),
+nav ul li:nth-child(7) {
+  margin-right: 55px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10%;
+  padding-left: 50px;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 50px;
+  padding-right: 50px;
+}
+
+.container1 {
+  margin-right: 10%;
+  padding-right: 80px;
+}
+
+p{
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+i{
+    font-weight: 700;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 1px 15px;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+aside{
+    width: 500px;
+  height: 500px;
+    border: 1px solid black;
+    background-color: none;
+    border-radius: 38%;
+    padding-right: 10px;
+    position: absolute;
+    top: 70px;
+    right: 5%;
+    bottom: 90%;
+    z-index: -1;
+}
+
+
+img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid none;
+  border-radius: 38%;
+  margin-left: -100px;
+}
+
